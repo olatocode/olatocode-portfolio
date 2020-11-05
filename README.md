@@ -1,2 +1,0 @@
-# olatoweb.github.io
-Portfolio
