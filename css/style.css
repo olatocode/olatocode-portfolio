@@ -227,6 +227,11 @@ footer {
     #olato-img {
         background-attachment: fixed;
     }
+    
+    ul li a:hover {
+    color: #fff;
+    text-decoratoion: none;
+}
 
     h3 {
         font-size: 150%;
