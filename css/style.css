@@ -7,7 +7,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    transition: background all 0.30s;
+    -webkit-transform: background all 0.30s;
 
 }
 
@@ -47,8 +47,6 @@ nav li{
 nav a{
      text-decoration: none;
 }
-
-
 
 
  nav ul li{
@@ -187,64 +185,80 @@ footer {
     text-align: center;
 }
 
+    @media screen and (min-width: 768px) {
+        
+ nav ul li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-    #olato-img {
-        background-attachment: fixed;
-    }
-
-    h3 {
-        font-size: 150%;
-        text-align: left;
-        margin: 4% 0 4%;
-
-    }
-
-    #move {
-        position: relative;
-        left: 80px;
-    }
-
-    h1 {
-        position: relative;
-        right: 45px;
-    }
-
-    .top-content {
-        position: relative;
-        right: 40px;
-        width: 160%;
-    }
-
-    .top-img {
-        width: 150%;
-        position: relative;
-        right: 55px;
-    }
-
-    ul.gallery li {
-        position: relative;
-        right: 40px;
-        margin: 2%;
-    }
-
-    .social ul li {
-        position: relative;
-        right: 20px;
-
-    }
-
-    .social ul li {
-        display: inline;
-        padding: 5px 5px 5px 5px;
-
-    }
-
-    .social a img {
-        height: auto;
-        width: 5%;
-    }
+ nav ul li {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
 }
+
+.img-container {
+    padding: 0.5rem 1.5rem;
+    color: lightgray;
+}
+
+h3{
+    font-size: 100%;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+.skill-container {
+    margin-top: 140px;
+    padding: 0.5rem 1.5rem;
+}
+
+h1{
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.top-content{
+    position: relative;
+    bottom: 60px;
+} 
+
+p{
+    font-size: 16px;
+}
+
+.top-img {
+    position: relative;
+    bottom: 80px;
+}
+
+ul.gallery li a img {
+    height: 150px;
+    width: 110px;
+    position: relative;
+    right: 20px;
+    margin: 6%;
+}
+
+.about-container {
+    padding: 0.5rem 1.5rem;
+}
+
+.social{
+    font-size: 50%;
+    text-align: start;
+    margin-top: 30px;
+}
+.social ul li {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+}
+
 }
