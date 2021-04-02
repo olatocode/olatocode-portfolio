@@ -81,9 +81,10 @@ a:visited {
     color: white;
 }
 
-.chat{
+.chat a{
     color: deepskyblue;
 }
+
 
 /* Body Styling*/
 .img-container {
