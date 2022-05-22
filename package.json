@@ -1,0 +1,9 @@
+{
+  "name": "olatocode-portfolio",
+  "version": "1.0.0",
+  "description": "Olatocode Portfolio",
+  "main": "index.html",
+  "repository": "https://github.com/olatocode/olatocode.github.io.git",
+  "author": "Tobi Awosola",
+  "license": "MIT"
+}
