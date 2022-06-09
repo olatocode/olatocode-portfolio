@@ -11,7 +11,7 @@
 }
 body {
   background: #fff;
-  color: #333;
+  color: #01303f;
   font-size: 1.2rem;
   font-family: monospace;
   line-height: 1.5;
@@ -41,7 +41,7 @@ a {
 /* Navigation styling*/
 
 nav {
-  background-color: skyblue;
+  background-color: #02577a;
   padding: 0.4rem;
 }
 
@@ -93,12 +93,12 @@ a:visited {
 }
 
 .chat a {
-  color: deepskyblue;
+  color: #02a9f7;
 }
 
 /* Body Styling*/
 .img-container {
-  color: #333;
+  color: #01303f;
   padding: 100px;
 }
 
