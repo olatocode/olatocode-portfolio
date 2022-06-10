@@ -42,7 +42,7 @@ a {
 
 nav {
   background-color: #02577a;
-  padding: 0.4rem;
+  padding: 1.5rem;
 }
 
 nav ul {
@@ -145,17 +145,19 @@ ul.gallery li {
   list-style: none;
 }
 
-ul.gallery li a img {
-  height: 250px;
-  width: 150px;
+ul.gallery li img {
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
 }
 
-ul.gallery li a:hover img {
+
+/* ul.gallery li a:hover img {
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
   -o-transform: scale(1.3);
   transform: scale(1.3);
-}
+} */
 
 /* Footer styling*/
 
